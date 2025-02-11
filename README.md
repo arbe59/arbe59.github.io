@@ -17,8 +17,8 @@ Because I have always worked for .NET shops, I have remained somewhat pigeonhole
 This will take the form of acquiring new knowledge through a list of books ive decided to make my way through, as well as adding projects to my repository portfolio.  Ultimately, I want this aite to provide demos of these projects.
 
 ### Reading List
-- [] Pragmatic Programmer
-- [] Clean Code
+- [ ] Pragmatic Programmer
+- [ ] Clean Code
 
 ### Project Plan
 In addition, I want to come up with a list of projects which can be coded in local repositories and hosted in ways that this site can link to.
