@@ -1,6 +1,3 @@
-# Andrew's Github Pages Site
-
-
 ## Overview
 This page will serve as my central hub to showcase my experience, abilities, and resume.
 
