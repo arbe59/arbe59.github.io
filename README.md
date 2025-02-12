@@ -14,7 +14,7 @@ Because I have always worked for .NET shops, I have remained somewhat pigeonhole
 This will take the form of acquiring new knowledge through a list of books ive decided to make my way through, as well as adding projects to my repository portfolio.  Ultimately, I want this aite to provide demos of these projects.
 
 ### Reading List
-- [ ] Pragmatic Programmer
+- [ ] [Pragmatic Programmer](pragmaticprogrammer.md)
 - [ ] Clean Code
 
 ### Project Plan
