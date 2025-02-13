@@ -14,7 +14,7 @@ Because I have always worked for .NET shops, I have remained somewhat pigeonhole
 This will take the form of acquiring new knowledge through a list of books I've decided to make my way through, as well as adding projects to my repository portfolio.  Ultimately, I want this site to provide demos of these projects.
 
 ### Reading List
-- [ ] [The Pragmatic Programmer](PragmaticProgrammer.md)
+- [x] [The Pragmatic Programmer](PragmaticProgrammer.md)
 - [ ] [Clean Code: A Handbook of Agile Software Craftsmanship](CleanCode.md)
 - [ ] [Cracking the Coding Interview: 189 Programming Questions and Solutions](CrackingCodingInterview.md)
 - [ ] [Introduction to Algorithms](IntroductionAlgorithms.md)
