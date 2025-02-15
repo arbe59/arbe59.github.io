@@ -6,7 +6,7 @@ I started reading this book on 1/20/2025.  So far, I'm through 6 of the 9 chapte
 ### Chapter 1 - A Pragmatic Philosophy
 
 This chapter is all about the responsibility of owning and directing your own future as a software engineer, and being responsible for the work that you produce.  My main takeaway from this chapter is to take pride in my work, and to build a professional portfolio that demonstrates my ability.  Specific things to remember:
-- Don't Live with Broken Windows - a single instance of poor design or poor implementation, allowed, will encourage future transgressions, both by myself and others.  When expediency temps me to make a shortcut or to "go back and fix it later", don't give in to this temptation.  That's a broken window.  When you see a freshly broken window by a colleague, call them out.
+- Don't Live with Broken Windows - a single instance of poor design or poor implementation, allowed, will encourage future transgressions, both by myself and others.  When expediency tempts me to make a shortcut or to "go back and fix it later", don't give in to this temptation.  That's a broken window.  When you see a freshly broken window by a colleague, call them out.
 - Good Enough Software - there's no finish line.  Software that looks perfect today is out of date and incorrect tomorrow.  This isn't an invitation to engage in poor design, it's a reminder that software which is well designed and meets the user's requirements, is good enough and should be deployed.
 - Knowledge Portfolio - it's kind of the inspiration for this entire site.  I want a continually maintained, demonstrable portfolio of skills, an updated (living) resume, and always a short term plan in progress for acquiring new skills.
 
