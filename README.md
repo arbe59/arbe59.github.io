@@ -31,9 +31,10 @@ This will take the form of acquiring new knowledge through a list of books I've 
 In addition, I want to come up with a list of projects which can be coded in local repositories and hosted in ways that this site can link to.
 
 - An idea I have is for a hotel management app.  Details still need to be fleshed out, but ideally it should consist of a booking system and an administration tool.  It should initially just concern itself with booking rooms.  Later, other features like a hotel, housekeeping, conference rooms, etc., can be added.
+- I'd love to have this page be written by code which pulls from a database.  I can store all of my tasks in a database and have a UI app which lets me manage the tasks (repeatable tasks, etc).  Then, I can also store my skills list in a database, tie them to projects in my repos, tie them to my resume.
 
-### Tomorrow is 2/15/2025
-And tomorrow's plan is:
+### Today is 2/15/2025
+And today's plan is:
 - Get the resume page created and your existing resume re-created there.  No need to worry about updating it, just get what exists moved to this markdown format for now
 - Read the rest of chapter 6 of The Pragmatic Programmer
 - Flesh out the takeaway notes of the remaining chapters you've already read
