@@ -16,6 +16,9 @@ This chapter is all about the responsibility of owning and directing your own fu
 - Estimating - don't give them before you're ready, and don't apologize for not giving premature estimates.  And don't just guess.  Take the time to understand what's being asked and what the impact is before giving an estimate.  Tightly coupled systems that aren't orthogonal provide multipliers on estimates that you often neglect to include.
 
 ### Chapter 3 - The Basic Tools
+- Shell Games - I really need to start thinking about using shell scripts to automate frequent jobs and using the shell script rather than the Windows GUI to do things.  This is probably best done by recognizing in the moment that I'm doing something repetetive or manual in the GUI that is likely automatable through a script.  Some of the things I do with the Print & Mail system are good candidates.
+- Power Editing - I want to get better with VS Code rather than relying so much on Visual Studio.  Visual Studio pushes me towards back-end development in strictly .NET languages (C#).  I think VS Code is a better tool to work with front-end frameworks and other non-proprietary languages, but can also work with .NET code as well.
+- Engineering Daybooks - I sort of already do this, and honestly it's a little like journaling, which I'm pretty good at.  But it's disjointed and disorganized.  It would be better if I had beginning-of-day and end-of-day rituals to formally start and end a daybook, and to review them in some kind of systematic way so I get feedback on my own notes.
 
 ### Chapter 4 - Pragmatic Paranoia
 
