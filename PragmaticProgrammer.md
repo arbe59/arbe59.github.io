@@ -1,7 +1,7 @@
 # The Pragmatic Programmer
 
 ## Notes & Strategies
-I started reading this book on 1/20/2025.  So far, I'm through 5 of the 9 chapters.  Below, I will document the specific takeaways I've had from what I've read, and my strategies to apply these things in both my work routines and my career development projects.
+I started reading this book on 1/20/2025.  So far, I'm through 6 of the 9 chapters.  Below, I will document the specific takeaways I've had from what I've read, and my strategies to apply these things in both my work routines and my career development projects.
 
 ### Chapter 1 - A Pragmatic Philosophy
 
@@ -11,6 +11,9 @@ This chapter is all about the responsibility of owning and directing your own fu
 - Knowledge Portfolio - it's kind of the inspiration for this entire site.  I want a continually maintained, demonstrable portfolio of skills, an updated (living) resume, and always a short term plan in progress for acquiring new skills.
 
 ### Chapter 2 - A Pragmatic Approach
+- DRY (Don't Repeat Yourself) - I am well aware of this principle as the D in SOLID.  However, knowing by itself doesn't do anything.  More up-front design and more after-development review would help find the code duplication that occurs as the software gets written, which is a difficult time to recognize it.  Also, the code providing mock data for unit tests is a danger zone for duplicated code.
+- Orthogonality - if changes in one thing don't necessitate changes in the other, then they are "orthogonal", and orthogoal code is maintainable code.  This is something to notice while making changes.  If making a simple change requires making parallel or sympathetic updates in several places, then fix it.
+- Estimating - don't give them before you're ready, and don't apologize for not giving premature estimates.  And don't just guess.  Take the time to understand what's being asked and what the impact is before giving an estimate.  Tightly coupled systems that aren't orthogonal provide multipliers on estimates that you often neglect to include.
 
 ### Chapter 3 - The Basic Tools
 
