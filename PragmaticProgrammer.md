@@ -23,10 +23,16 @@ This chapter is all about the responsibility of owning and directing your own fu
 ### Chapter 4 - Pragmatic Paranoia
 
 ### Chapter 5 - Bend, or Break
+- Juggling the Real World - Between Finite State Machines, Observer and Publish/Subscribe, and Events, I need to remember to consider the use of standardized patterns when applying the needs of the system rather than forging ahead with effectively implementing the same things, but not necessarily to the exact standards, nor using standardized libraries that are available in the language.  I tend to get momentum and keep going and sometimes I need to adopt a start/stop cycle where I dedicate specific time to think about what I'm implementing and refactor as necessary.
+- Inheritance Tax - I have been programming by interface rather than explicit object-inheritance for some time, but I didn't realize that object inheritance had become an anti-pattern of sorts.
+- Configuration - this makes total sense, but having once central spot for configuration-as-a-service within the platform makes total sense.  It's superior for any volatile configuration data because you have a UI providing administrative control across an entire platform.  Applications or services which utilize the same configuration values don't need to each define them, and configuration values can be changed without the need for restarting applications and services.
 
 ### Chapter 6 - Concurrency
 
 ### Chapter 7 - While You Are Coding
+- Listen to Your Lizard Brain - if you get "stuck" or where it doesn't feel right what you're doing, get out of the main code.  This is the time to take a walk, talk with a coworker about the issue, or prototype.  Take the opportunity.
+- Programming By Coincidence - embarrassingly, I see a lot of myself described in this section.
+- 
 
 ### Chapter 8 - Before the Project
 
