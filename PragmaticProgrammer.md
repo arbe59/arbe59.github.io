@@ -35,6 +35,8 @@ This chapter is all about the responsibility of owning and directing your own fu
 - Refactoring - the explanation for the metaphor gardening being more appropriate than the metaphor of construction to software engineering really hits home.  It's not prescriptive, but it's very informative.  The code needs to be weeded, reorganized, restructured, and reconsidered regularly, any time something new has been learned.  Key to the free ability to do this is sufficient unit test coverage to ensure that external behavior hasn't been negatively affected by refactoring efforts.  This is another big feather in the cap of unit testing.
 
 ### Chapter 8 - Before the Project
+- The Requirements Pit - I knew this already but it's worth repeating and remembering.  Users don't fully know what they want when they ask for a system or a feature.  They have an idea, but once they see something start to materialize, they get a better idea.  Our job as programmers is to guide them through the process of discovering exactly what it is that they need and want.  To that end, the more you can put yourself in their shoes, the better you can do this.
+- Working Together - this is something I appreciate the value of, but nonetheless don't do nearly enough, particularly working 100% remotely.  Pair programming reduces broken windows and adds multiple brains to help get un-stuck from issues.
 
 ### Chapter 9 - Pragmatic Projects
 
