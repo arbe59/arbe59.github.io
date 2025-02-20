@@ -1,0 +1,345 @@
+{
+	"info": {
+		"_postman_id": "d43771fc-d336-40c7-9d5b-6c14b9ebd944",
+		"name": "Todoist API",
+		"description": "[https://developer.todoist.com/rest/v2/#overview](https://developer.todoist.com/rest/v2/#overview)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2416043"
+	},
+	"item": [
+		{
+			"name": "List Projects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{td_baseUrl}}/projects",
+					"host": [
+						"{{td_baseUrl}}"
+					],
+					"path": [
+						"projects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Project",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Request-Id",
+						"value": "7",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"kids\",\r\n    \"color\": \"red\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{td_baseUrl}}/projects",
+					"host": [
+						"{{td_baseUrl}}"
+					],
+					"path": [
+						"projects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Task",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"content\": \"Create weird project\", // markdown supported here\r\n    \"project_id\": \"2349239455\", // null will create a task not associated with a project\r\n    \"section_id\": null, // set this if you want to put the task into a sub-section of a project\r\n    \"description\": \"Part of my plan to improve my skill portfolio\", // optional, markdown supported\r\n    \"is_completed\": false,\r\n    \"labels\": [], // array of strings representing labels for task\r\n    \"parent_id\": null, // if you want to make hierarchies of tasks, the parent's id goes here\r\n    \"order\": null, // position within siblings under same parent\r\n    \"priority\": 1, // task priority from 1 (normal, default) to 4 (urgent)\r\n    \"due_string\": \"today\", // string representation of date/recurrence\r\n    \"due_date\": null, // date in yyyy-mm-dd format\r\n    \"deadline\": null, // object representing task deadline date, where applicable\r\n    \"assignee_id\": null, // user ID of the assignee, where applicable\r\n    \"assigner_id\": null, // user ID of the assigner, where applicable\r\n    \"duration\": null // object representing the task duration, where applicable\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{td_baseUrl}}/tasks",
+					"host": [
+						"{{td_baseUrl}}"
+					],
+					"path": [
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Task",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.environment.set(\"taskId\", \"8902024381\");"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"due_string\": \"today\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{td_baseUrl}}/tasks/{{taskId}}",
+					"host": [
+						"{{td_baseUrl}}"
+					],
+					"path": [
+						"tasks",
+						"{{taskId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Close Task",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.variables.set(\"taskId\", \"8898014093\");"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{td_baseUrl}}/tasks/{{taskId}}/close",
+					"host": [
+						"{{td_baseUrl}}"
+					],
+					"path": [
+						"tasks",
+						"{{taskId}}",
+						"close"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Project",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.variables.set(\"projectId\", \"2349307721\");"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{td_baseUrl}}/projects/{{projectId}}",
+					"host": [
+						"{{td_baseUrl}}"
+					],
+					"path": [
+						"projects",
+						"{{projectId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Tasks",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.variables.set(\"projectId\", \"2349239455\");"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{td_baseUrl}}/tasks?project_id={{projectId}}",
+					"host": [
+						"{{td_baseUrl}}"
+					],
+					"path": [
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "project_id",
+							"value": "{{projectId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Task",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.variables.set(\"taskId\", \"8898018828\");"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{td_baseUrl}}/tasks/{{taskId}}",
+					"host": [
+						"{{td_baseUrl}}"
+					],
+					"path": [
+						"tasks",
+						"{{taskId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reopen Task",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.variables.set(\"taskId\", \"8898014093\");"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{td_baseUrl}}/tasks/{{taskId}}/reopen",
+					"host": [
+						"{{td_baseUrl}}"
+					],
+					"path": [
+						"tasks",
+						"{{taskId}}",
+						"reopen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Task",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.variables.set(\"taskId\", \"8902141543\");"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{td_baseUrl}}/tasks/{{taskId}}",
+					"host": [
+						"{{td_baseUrl}}"
+					],
+					"path": [
+						"tasks",
+						"{{taskId}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{td_bearerToken}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					"pm.environment.set(\"td_bearerToken\", \"20a0cdf06e1413f49b8ce54d4515c23bc4ed62d0\");\r",
+					"pm.environment.set(\"td_baseUrl\", \"https://api.todoist.com/rest/v2\");"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
