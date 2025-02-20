@@ -15,17 +15,17 @@ Because I have always worked for .NET shops, I have remained somewhat pigeonhole
 This will take the form of acquiring new knowledge through a list of books I've decided to make my way through, as well as adding projects to my repository portfolio.  Ultimately, I want this site to provide demos of these projects.
 
 ### Reading List
-- [x] [The Pragmatic Programmer](PragmaticProgrammer.md)
-- [ ] [Clean Code: A Handbook of Agile Software Craftsmanship](CleanCode.md)
-- [ ] [Cracking the Coding Interview: 189 Programming Questions and Solutions](CrackingCodingInterview.md)
-- [ ] [Introduction to Algorithms](IntroductionAlgorithms.md)
-- [ ] [Domain-Driven Design: Tackling Complexity in the Heart of Software](DomainDrivenDesign.md)
-- [ ] [Design Patterns: Elements of Reusable Object-Oriented Software](DesignPatterns.md)
-- [ ] [System Design Interview - An Insider's Guide](SystemDesignInterview1.md)
-- [ ] [System Design Interview - An Insider's Guide: Volume 2](SystemDesignInterview2.md)
-- [ ] [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](DesigningDataIntensiveApplications.md)
-- [ ] [Refactoring: Improving the Design of Existing Code](Refactoring.md)
-- [ ] [Code Complete: A Practical Handbook of Software Constuction](CodeComplete.md)
+- [x] [The Pragmatic Programmer](Markdown/PragmaticProgrammer.md)
+- [ ] [Clean Code: A Handbook of Agile Software Craftsmanship](Markdown/CleanCode.md)
+- [ ] [Cracking the Coding Interview: 189 Programming Questions and Solutions](Markdown/CrackingCodingInterview.md)
+- [ ] [Introduction to Algorithms](Markdown/IntroductionAlgorithms.md)
+- [ ] [Domain-Driven Design: Tackling Complexity in the Heart of Software](Markdown/DomainDrivenDesign.md)
+- [ ] [Design Patterns: Elements of Reusable Object-Oriented Software](Markdown/DesignPatterns.md)
+- [ ] [System Design Interview - An Insider's Guide](Markdown/SystemDesignInterview1.md)
+- [ ] [System Design Interview - An Insider's Guide: Volume 2](Markdown/SystemDesignInterview2.md)
+- [ ] [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](Markdown/DesigningDataIntensiveApplications.md)
+- [ ] [Refactoring: Improving the Design of Existing Code](Markdown/Refactoring.md)
+- [ ] [Code Complete: A Practical Handbook of Software Constuction](Markdown/CodeComplete.md)
 
 ### Project Plan
 In addition, I want to come up with a list of projects which can be coded in local repositories and hosted in ways that this site can link to.
