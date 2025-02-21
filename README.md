@@ -33,11 +33,6 @@ In addition, I want to come up with a list of projects which can be coded in loc
 - An idea I have is for a hotel management app.  Details still need to be fleshed out, but ideally it should consist of a booking system and an administration tool.  It should initially just concern itself with booking rooms.  Later, other features like a hotel, housekeeping, conference rooms, etc., can be added.
 - I'd love to have this page be written by code which pulls from a database.  I can store all of my tasks in a database and have a UI app which lets me manage the tasks (repeatable tasks, etc).  Then, I can also store my skills list in a database, tie them to projects in my repos, tie them to my resume.
 
-### Today is 2/19/2025
+### Today is 2/20/2025
 And today's plan is:
-- Finalize workout plan
-- Document takeaways from Pragmatic Programmer chapter 8
 - Read Pragmatic Programmer chapter 9
-- Create new project for My Personal Planner in GitHub
-- Create or renew Todoist account
-- Use Postman to interact with Todoist account
